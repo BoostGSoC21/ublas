@@ -6,14 +6,14 @@ Boost Linear and Multilinear Algebra Library
 [![Documentation](https://img.shields.io/badge/ublas-documentation-blue.svg)](https://www.boost.org/doc/libs/1_69_0/libs/numeric/ublas/doc/index.html)
 [![Wiki](https://img.shields.io/badge/ublas-wiki-blue.svg)](https://github.com/boostorg/ublas/wiki)
 [![Mailing List](https://img.shields.io/badge/ublas-mailing%20list-4eb899.svg)](https://lists.boost.org/mailman/listinfo.cgi/ublas)
-[![Gitter](https://img.shields.io/badge/ublas-chat%20on%20gitter-4eb899.svg)](https://gitter.im/boostorg/ublas)
+[![Gitter](https://img.shields.io/badge/ublas-chat%20on%20gitter-4eb899.svg)](https://gitter.im/BoostGSoC21/ublas)
 
-[![Windows](https://github.com/boostorg/ublas/actions/workflows/windows.yml/badge.svg)](https://github.com/boostorg/ublas/actions/workflows/windows.yml)
-[![Linux](https://github.com/boostorg/ublas/actions/workflows/linux.yml/badge.svg)](https://github.com/boostorg/ublas/actions/workflows/linux.yml)
-[![Apple MacOS](https://github.com/boostorg/ublas/actions/workflows/apple.yml/badge.svg)](https://github.com/boostorg/ublas/actions/workflows/apple.yml)
-[![Clang Sanitizer](https://github.com/boostorg/ublas/actions/workflows/sanitizer.yml/badge.svg)](https://github.com/boostorg/ublas/actions/workflows/sanitizer.yml)
-[![Clang Tidy](https://github.com/boostorg/ublas/actions/workflows/clangtidy.yml/badge.svg)](https://github.com/boostorg/ublas/actions/workflows/clangtidy.yml)
-[![Codecov](https://codecov.io/gh/boostorg/ublas/branch/master/graph/badge.svg)](https://codecov.io/gh/boostorg/ublas/branch/master) 
+[![Windows](https://github.com/BoostGSoC21/ublas/actions/workflows/windows.yml/badge.svg)](https://github.com/BoostGSoC21/ublas/actions/workflows/windows.yml)
+[![Linux](https://github.com/BoostGSoC21/ublas/actions/workflows/linux.yml/badge.svg)](https://github.com/BoostGSoC21/ublas/actions/workflows/linux.yml)
+[![Apple MacOS](https://github.com/BoostGSoC21/ublas/actions/workflows/apple.yml/badge.svg)](https://github.com/BoostGSoC21/ublas/actions/workflows/apple.yml)
+[![Clang Sanitizer](https://github.com/BoostGSoC21/ublas/actions/workflows/sanitizer.yml/badge.svg)](https://github.com/BoostGSoC21/ublas/actions/workflows/sanitizer.yml)
+[![Clang Tidy](https://github.com/BoostGSoC21/ublas/actions/workflows/clangtidy.yml/badge.svg)](https://github.com/BoostGSoC21/ublas/actions/workflows/clangtidy.yml)
+[![Codecov](https://codecov.io/gh/BoostGSoC21/ublas/branch/features/gsoc21/shikhar/graph/badge.svg)](https://codecov.io/gh/BoostGSoC21/ublas/branch/features/gsoc21/shikhar) 
 
 
 **Boost.uBLAS** is part of the [Boost C++ Libraries](http://github.com/boostorg). 
