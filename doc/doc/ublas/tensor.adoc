@@ -23,7 +23,7 @@
 ... link:#tensor_17[Modifiers] +
 ... link:#tensor_18[Notes] +
 
-==== [#tensor_1]#Description#
+==== a. [#tensor_1]#Description#
 
 
 The templated class `tensor<value_t,format_t,storage_t>` is the base
@@ -36,7 +36,7 @@ orientation latexmath:[$w_1 = 1$] and latexmath:[$w_k = n_\{k-1} \cdot w_\{k-1}$
 For last-order orientation latexmath:[$w_p = 1$] and latexmath:[$ w_k = n_\{k+1} \cdot
 w_\{k+1}$] for latexmath:[$k < p$].
 
-==== [#tensor_2]#Example#
+==== b. [#tensor_2]#Example#
 
 [source,cpp]
 ....
@@ -54,24 +54,24 @@ int main () {
 }
 ....
 
-==== [#tensor_3]#Definition#
+==== c. [#tensor_3]#Definition#
 
 Defined in the header file `tensor/tensor.hpp`.
 
-==== [#tensor_4]#Model of#
+==== d. [#tensor_4]#Model of#
 
 link:container_concept.adoc#tensor[Tensor]
 
-==== [#tensor_5]#Type requirements#
+==== e. [#tensor_5]#Type requirements#
 
 None, except for those imposed by the requirements of
 link:container_concept.adoc#tensor[Tensor] .
 
-==== [#tensor_6]#Public base classes#
+==== f. [#tensor_6]#Public base classes#
 
 `tensor_container<tensor<value_t,format_t,storage_t> >`
 
-==== [#tensor_7]#Template parameters#
+==== g. [#tensor_7]#Template parameters#
 
 [cols=",,",]
 |===
@@ -85,7 +85,7 @@ link:container_concept.adoc#tensor[Tensor] .
 |`std::vector<value_t>`
 |===
 
-==== [#tensor_8]#Member types#
+==== h. [#tensor_8]#Member types#
 
 [cols=",",]
 |===
@@ -144,31 +144,22 @@ interacts.
 interacts.
 |===
 
-==== [#tensor_9]#Alias templates#
+==== i. [#tensor_9]#Alias templates#
 
-Alias template
+[cols=",",]
+|===
+|Alias template |Description
 
-Description
+|`template<class derived_type>  using tensor_expression_type = detail::tensor_expression<self_type,derived_type>` |Type of link:tensor/tensor_expression.adoc#tensor_expression[tensor_expression] where `self_type` is the `tensor` type.
 
-`template<class derived_type>  using tensor_expression_type = detail::tensor_expression<self_type,derived_type>`
+|`template<class derived_type>  using matrix_expression_type = matrix_expression<derived_type>` |Type of link:matrix_expression.adoc#matrix_expression[matrix_expression].
 
-Type of
-link:tensor/tensor_expression.adoc#tensor_expression[tensor_expression]
-where `self_type` is the `tensor` type.
+|`template<class derived_type>  using vector_expression_type = vector_expression<derived_type>` |Type of link:vector_expression.adoc#vector_expression[vector_expression].
+|===
 
-`template<class derived_type>  using matrix_expression_type = matrix_expression<derived_type>`
+==== j. [#tensor_10]#Member Functions#
 
-Type of
-link:matrix_expression.adoc#matrix_expression[matrix_expression].
-
-`template<class derived_type>  using vector_expression_type = vector_expression<derived_type>`
-
-Type of
-link:vector_expression.adoc#vector_expression[vector_expression].
-
-==== [#tensor_10]#Member Functions#
-
-===== [#tensor_11]#Construction#
+===== i. [#tensor_11]#Construction#
 
 [cols=",",]
 |===
@@ -227,7 +218,7 @@ tensor by evaluating the link:vector_expression.adoc[vector expression]
 `expr` and copying all elements of the result.
 |===
 
-===== [#tensor_12]#Assignment#
+===== ii. [#tensor_12]#Assignment#
 
 [cols=",",]
 |===
@@ -243,7 +234,7 @@ tensor by evaluating the link:vector_expression.adoc[vector expression]
 tensor with `v`.
 |===
 
-===== [#tensor_13]#Capacity#
+===== iii. [#tensor_13]#Capacity#
 
 [cols=",",]
 |===
@@ -266,7 +257,7 @@ the link:tensor/strides.adoc[strides] of the tensor.
 the link:tensor/extents.adoc[extents] of the tensor.
 |===
 
-===== [#tensor_14]#Element access#
+===== iv. [#tensor_14]#Element access#
 
 [cols=",",]
 |===
@@ -296,7 +287,7 @@ where ` (i,is...)` denotes a multi-index with `tensor::order()`
 elements. If `sizeof...(is)==0`, `tensor::operator[i]` is called.
 |===
 
-===== [#tensor_15]#Proxy Generation#
+===== v. [#tensor_15]#Proxy Generation#
 
 [cols=",",]
 |===
@@ -308,7 +299,7 @@ index objects `(p,ps...)` for a tensor contraction where
 `sizeof...(ps)+1` must be equal to `tensor::order()`.
 |===
 
-===== [#tensor_16]#Iterators#
+===== vi. [#tensor_16]#Iterators#
 
 [cols=",",]
 |===
@@ -333,7 +324,7 @@ position after the last element of the tensor.
 the last element of the tensor.
 |===
 
-===== [#tensor_17]#Modifiers#
+===== vii. [#tensor_17]#Modifiers#
 
 [cols=",",]
 |===
@@ -344,7 +335,7 @@ the last element of the tensor.
 greater than `tensor::size()`, the tensor is resized with `v`.
 |===
 
-===== [#tensor_18]#Notes#
+===== viii. [#tensor_18]#Notes#
 
 [#tensor_1]#[1]# Supported parameters for the storage organization are
 `first_order` and `last_order`.
