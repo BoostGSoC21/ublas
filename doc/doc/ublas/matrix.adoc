@@ -8,8 +8,8 @@
 
 The templated class `matrix<T, F, A>` is the base container adaptor for
 dense matrices. For a _(m x n_)-dimensional matrix and _0 <= i < m_, _0
-<= j < n_ every element __m__~_i, j_~ is mapped to the __(i x n
-j)-__th element of the container for row major orientation or the __(i
+<= j < n_ every element __m__~_i,j_~ is mapped to the __(i x n
+j)-__th element of the container for row major orientation or the __(i+
 j x m)-__th element of the container for column major orientation.
 
 ==== Example
@@ -205,8 +205,7 @@ the end of the reversed `matrix`.
 
 The templated class `identity_matrix<T, ALLOC>` represents identity
 matrices. For a _(m x n_)-dimensional identity matrix and _0 <= i < m_,
-_0 <= j < n_ holds __id__~_i, j_~ _= 0_, if _i <> j_, and __id__~_i,
-i_~_= 1_.
+_0 <= j < n_ holds __id__~_i,j_~ = 0, if _i <> j_, and __id__~_i,i_~ .
 
 ==== Example
 
@@ -320,7 +319,7 @@ to the end of the `identity_matrix`.
 
 The templated class `zero_matrix<T, ALLOC>` represents zero matrices.
 For a _(m x n_)-dimensional zero matrix and _0 <= i < m_, _0 <= j < n_
-holds __z__~_i, j_~ _= 0_.
+holds __z__~_i,j_~ = 0.
 
 ==== Example
 
@@ -434,7 +433,7 @@ to the end of the `zero_matrix`.
 
 The templated class `scalar_matrix<T, ALLOC>` represents scalar
 matrices. For a _(m x n_)-dimensional scalar matrix and _0 <= i < m_, _0
-<= j < n_ holds __z__~_i, j_~ _= s_.
+<= j < n_ holds __z__~_i,j_~ = s.
 
 ==== Example
 
