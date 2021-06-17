@@ -169,7 +169,7 @@ The free `subrange` functions support the construction of vector ranges.
 ===== Description
 
 The free `project` functions support the construction of vector ranges.
-Existing `matrix_range`'s can be composed with a further range. The
+Existing `matrix_range` 's can be composed with a further range. The
 resulting range is computed using this existing range's `compose`
 function.
 
@@ -382,7 +382,7 @@ The free `subslice` functions support the construction of vector slices.
 ===== Description
 
 The free `project` functions support the construction of vector slices.
-Existing `vector_slice`'s can be composed with a further range or
+Existing `vector_slice` 's can be composed with a further range or
 slices. The resulting slice is computed using this existing slices's
 `compose` function.
 
