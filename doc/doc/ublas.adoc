@@ -1,0 +1,30 @@
+////
+Copyright 2021 Shikhar Vashistha
+
+Distributed under the Boost Software License, Version 1.0.
+(http://www.boost.org/LICENSE_1_0.txt)
+////
+
+# Boost.Ublas: The Boost Ublas Library
+:toc: left
+:toclevels: 2
+:idprefix:
+:listing-caption: Code Example
+:docinfo: private-footer
+
+:leveloffset: +1
+////
+include::ublas/overview.adoc[]
+include::ublas/changelog.adoc[]
+include::ublas/index.adoc[]
+////
+:leveloffset: -1
+
+[appendix]
+## Copyright and License
+
+This documentation is
+
+* Copyright 2021 Shikhar Vashistha
+
+and is distributed under the http://www.boost.org/LICENSE_1_0.txt[Boost Software License, Version 1.0].
