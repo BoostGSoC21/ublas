@@ -1,8 +1,8 @@
-== image:Boost.png[image]Expression Concepts
+== Expression Concepts
 
 [[toc]]
 
-=== [#scalar_expression]####Scalar Expression
+=== [#scalar_expression]#Scalar Expression#
 
 ==== Description
 
@@ -67,7 +67,7 @@ scalar expression.
 * `vector_scalar_unary`
 * `vector_scalar_binary`
 
-=== [#vector_expression]####Vector Expression
+=== [#vector_expression]#Vector Expression#
 
 ==== Description
 
@@ -295,7 +295,7 @@ the same as the distance from `v.rbegin ()` to `v.rend ()`.
 * `matrix_vector_binary1`
 * `matrix_vector_binary2`
 
-=== [#matrix_expression]####Matrix Expression
+=== [#matrix_expression]#Matrix Expression#
 
 ==== Description
 

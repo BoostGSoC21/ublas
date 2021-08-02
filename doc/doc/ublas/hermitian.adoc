@@ -1,8 +1,8 @@
-== image:Boost.png[image]Hermitian Matrix
+== Hermitian Matrix
 
 [[toc]]
 
-=== [#hermitian_matrix]####Hermitian Matrix
+=== [#hermitian_matrix]#Hermitian Matrix#
 
 ==== Description
 
@@ -215,7 +215,7 @@ organization are `row_major` and `column_major`.
 [#hermitian_matrix_3]#[3]# Supported parameters for the adapted array
 are `unbounded_array<T>` , `bounded_array<T>` and `std::vector<T>` .
 
-=== [#hermitian_adaptor]####Hermitian Adaptor
+=== [#hermitian_adaptor]#Hermitian Adaptor#
 
 ==== Description
 

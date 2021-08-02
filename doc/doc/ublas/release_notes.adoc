@@ -1,4 +1,4 @@
-== image:Boost.png[logo]Boost Basic Linear Algebra - Release Notes
+== Boost Basic Linear Algebra - Release Notes
 
 link:index.adoc[back to uBLAS home]
 

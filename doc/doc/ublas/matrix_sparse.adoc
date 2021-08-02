@@ -1,8 +1,8 @@
-== image:Boost.png[image]Sparse Matricies
+== Sparse Matricies
 
 [[toc]]
 
-=== [#mapped_matrix]####Mapped Matrix
+=== [#mapped_matrix]#Mapped Matrix#
 
 ==== Description
 
@@ -211,7 +211,7 @@ organization are `row_major` and `column_major`.
 `map_array<std::size_t, T>` and `map_std<std::size_t, T>`. The latter is
 equivalent to `std::map<std::size_t, T>`.
 
-=== [#compressed_matrix]####Compressed Matrix
+=== [#compressed_matrix]#Compressed Matrix#
 
 ==== Description
 
@@ -428,7 +428,7 @@ organization are `row_major` and `column_major`.
 [#compressed_matrix_3]#[3]# Supported parameters for the adapted array
 are `unbounded_array<>` , `bounded_array<>` and `std::vector<>` .
 
-=== [#coordinate_matrix]####Coordinate Matrix
+=== [#coordinate_matrix]#Coordinate Matrix#
 
 ==== Description
 

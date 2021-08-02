@@ -1,8 +1,8 @@
-== image:Boost.png[image]Vector Proxies
+== Vector Proxies
 
 [[toc]]
 
-=== [#vector_range]####Vector Range
+=== [#vector_range]#Vector Range#
 
 ==== Description
 
@@ -217,7 +217,7 @@ int main () {
 }
 ....
 
-=== [#vector_slice]####Vector Slice
+=== [#vector_slice]#Vector Slice#
 
 ==== Description
 

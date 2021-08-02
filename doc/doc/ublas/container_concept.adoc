@@ -1,8 +1,8 @@
-== image:Boost.png[image]Container Concepts
+== Container Concepts
 
 [[toc]]
 
-=== [#vector]####Vector
+=== [#vector]#Vector#
 
 ==== Description
 
@@ -141,7 +141,7 @@ both vectors and matrices.
 
 '''''
 
-=== [#matrix]####Matrix
+=== [#matrix]#Matrix#
 
 ==== Description
 
@@ -268,7 +268,7 @@ but not the user.
 
 '''''
 
-=== [#tensor]####Tensor
+=== [#tensor]#Tensor#
 
 ==== Description
 

@@ -1,8 +1,8 @@
-== image:Boost.png[image]Bounded Array Storage
+== Bounded Array Storage
 
 [[toc]]
 
-=== [#bounded_array]####Bounded Array
+=== [#bounded_array]#Bounded Array#
 
 ==== Description
 

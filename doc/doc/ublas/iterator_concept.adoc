@@ -1,11 +1,11 @@
-== image:Boost.png[image]Iterator Concepts
+== Iterator Concepts
 
 [[toc]]
 
 An Iterator is a restricted pointer-like object pointing into a vector
 or matrix container.
 
-=== [#indexed_bidirectional_iterator]####Indexed Bidirectional Iterator
+=== [#indexed_bidirectional_iterator]#Indexed Bidirectional Iterator#
 
 ==== Description
 
@@ -157,7 +157,7 @@ is dereferenceable, `*it == it () (it.index ())`.
 
 * `sparse_vector::iterator`
 
-=== [#indexed_random_access_iterator]####Indexed Random Access Iterator
+=== [#indexed_random_access_iterator]#Indexed Random Access Iterator#
 
 ==== Description
 
@@ -283,7 +283,7 @@ then `it1 == it2 + (it1 - it2)`.
 
 * `vector::iterator`
 
-=== [#indexed_bidirectional_cr_iterator]####Indexed Bidirectional Column/Row Iterator
+=== [#indexed_bidirectional_cr_iterator]#Indexed Bidirectional Column/Row Iterator#
 
 ==== Description
 
@@ -501,7 +501,7 @@ and `it2t ().index2 () == it2 ().index2 ()`.
 * `sparse_matrix::iterator1`
 * `sparse_matrix::iterator2`
 
-=== [#indexed_random_access_cr_iterator]####Indexed Random Access Column/Row Iterator
+=== [#indexed_random_access_cr_iterator]#Indexed Random Access Column/Row Iterator#
 
 ==== Description
 

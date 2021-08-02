@@ -1,8 +1,8 @@
-== image:Boost.png[image]Symmetric Matrix
+== Symmetric Matrix
 
 [[toc]]
 
-=== [#symmetric_matrix]####Symmetric Matrix
+=== [#symmetric_matrix]#Symmetric Matrix#
 
 ==== Description
 
@@ -208,7 +208,7 @@ organization are `row_major` and `column_major`.
 [#symmetric_matrix_3]#[3]# Supported parameters for the adapted array
 are `unbounded_array<T>` , `bounded_array<T>` and `std::vector<T>` .
 
-=== [#symmetric_adaptor]####Symmetric Adaptor
+=== [#symmetric_adaptor]#Symmetric Adaptor#
 
 ==== Description
 

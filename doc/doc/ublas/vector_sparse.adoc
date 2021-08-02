@@ -1,8 +1,8 @@
-== image:Boost.png[image]Sparse Vector
+== Sparse Vector
 
 [[toc]]
 
-=== [#mapped_vector]####Mapped Vector
+=== [#mapped_vector]#Mapped Vector#
 
 ==== Description
 
@@ -175,7 +175,7 @@ the end of the reversed `mapped_vector`.
 `map_array<std::size_t, T>` and `map_std<std::size_t, T>`. The latter is
 equivalent to `std::map<std::size_t, T>`.
 
-=== [#compressed_vector]####Compressed Vector
+=== [#compressed_vector]#Compressed Vector#
 
 ==== Description
 
@@ -356,7 +356,7 @@ the end of the reversed `compressed_vector`.
 [#compressed_vector_2]#[2]# Supported parameters for the adapted array
 are `unbounded_array<>` , `bounded_array<>` and `std::vector<>` .
 
-=== [#coordinate_vector]####Coordinate Vector
+=== [#coordinate_vector]#Coordinate Vector#
 
 ==== Description
 

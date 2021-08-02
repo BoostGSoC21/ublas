@@ -1,4 +1,4 @@
-== image:Boost.png[logo]Boost Basic Linear Algebra - Configuration Options
+== Boost Basic Linear Algebra - Configuration Options
 
 [[toc]]
 

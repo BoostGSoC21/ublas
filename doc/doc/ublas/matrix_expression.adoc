@@ -1,8 +1,8 @@
-== image:Boost.png[image]Matrix Expressions
+== Matrix Expressions
 
 [[toc]]
 
-=== [#matrix_expression]####Matrix Expression
+=== [#matrix_expression]#Matrix Expression#
 
 ==== Description
 
@@ -52,7 +52,7 @@ The `operator[]`, `row`, `column`, `range`, `slice` and `project`
 functions have been removed. Use the free functions defined in
 link:matrix_proxy.adoc[matrix proxy] instead.
 
-=== [#matrix_container]####Matrix Container
+=== [#matrix_container]#Matrix Container#
 
 ==== Description
 
@@ -96,7 +96,7 @@ reference of the container.
 |`container_type &operator () ()` |Returns a reference of the container.
 |===
 
-=== [#matrix_references]####Matrix References
+=== [#matrix_references]#Matrix References#
 
 ==== Reference
 
@@ -205,7 +205,7 @@ to the beginning of the reversed expression.
 the end of the reversed expression.
 |===
 
-=== [#matrix_operations]####Matrix Operations
+=== [#matrix_operations]#Matrix Operations#
 
 ==== Unary Operation Description
 
@@ -704,7 +704,7 @@ int main () {
 }
 ....
 
-=== [#matrix_vector_operations]####Matrix Vector Operations
+=== [#matrix_vector_operations]#Matrix Vector Operations#
 
 ==== Binary Operation Description
 
@@ -1044,7 +1044,7 @@ int main () {
 }
 ....
 
-=== [#matrix_matrix_operations]####Matrix Matrix Operations
+=== [#matrix_matrix_operations]#Matrix Matrix Operations#
 
 ==== Binary Operation Description
 

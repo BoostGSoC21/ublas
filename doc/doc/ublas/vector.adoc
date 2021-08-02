@@ -1,8 +1,8 @@
-== image:Boost.png[image]Vector
+== Vector
 
 [[toc]]
 
-=== [#vector]####Vector
+=== [#vector]#Vector#
 
 ==== Description
 
@@ -243,7 +243,7 @@ reversed `vector`.
 [#vector_1]#[1]# Common parameters for the Storage array are
 `unbounded_array<T>` , `bounded_array<T>` and `std::vector<T>` .
 
-=== [#unit_vector]####Unit Vector
+=== [#unit_vector]#Unit Vector#
 
 ==== Description
 
@@ -347,7 +347,7 @@ the end of the `unit_vector`.
 `unit_vector`.
 |===
 
-=== [#zero_vector]####Zero Vector
+=== [#zero_vector]#Zero Vector#
 
 ==== Description
 
@@ -445,7 +445,7 @@ the end of the `zero_vector`.
 `zero_vector`.
 |===
 
-=== [#scalar_vector]####Scalar Vector
+=== [#scalar_vector]#Scalar Vector#
 
 ==== Description
 

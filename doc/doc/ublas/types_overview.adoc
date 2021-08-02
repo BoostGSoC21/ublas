@@ -1,4 +1,4 @@
-== image:Boost.png[image]Overview of Tensor, Matrix- and Vector Types
+== Overview of Tensor, Matrix- and Vector Types
 
 [[toc]]
 

@@ -1,8 +1,8 @@
-== image:Boost.png[image]Matrix Proxies
+== Matrix Proxies
 
 [[toc]]
 
-=== [#matrix_row]####Matrix Row
+=== [#matrix_row]#Matrix Row#
 
 ==== Description
 
@@ -186,7 +186,7 @@ int main () {
 }
 ....
 
-=== [#matrix_column]####Matrix Column
+=== [#matrix_column]#Matrix Column#
 
 ==== Description
 
@@ -372,7 +372,7 @@ int main () {
 }
 ....
 
-=== [#vector_range]####Vector Range
+=== [#vector_range]#Vector Range#
 
 ==== Description
 
@@ -511,7 +511,7 @@ the beginning of the reversed `matrix_vector_range`.
 the end of the reversed `matrix_vector_range`.
 |===
 
-=== [#vector_slice]####Vector Slice
+=== [#vector_slice]#Vector Slice#
 
 ==== Description
 
@@ -650,7 +650,7 @@ the beginning of the reversed `matrix_vector_slice`.
 the end of the reversed `matrix_vector_slice`.
 |===
 
-=== [#matrix_range]####Matrix Range
+=== [#matrix_range]#Matrix Range#
 
 ==== Description
 
@@ -891,7 +891,7 @@ int main () {
 }
 ....
 
-=== [#matrix_slice]####Matrix Slice
+=== [#matrix_slice]#Matrix Slice#
 
 ==== Description
 

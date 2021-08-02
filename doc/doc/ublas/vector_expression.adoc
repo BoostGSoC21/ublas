@@ -1,8 +1,8 @@
-== image:Boost.png[image]Vector Expressions
+== Vector Expressions
 
 [[toc]]
 
-=== [#vector_expression]####Vector Expression
+=== [#vector_expression]#Vector Expression#
 
 ==== Description
 
@@ -51,7 +51,7 @@ expression.
 The `range`, `slice` and `project` functions have been removed. Use the
 free functions defined in link:vector_proxy.adoc[vector proxy] instead.
 
-=== [#vector_container]####Vector Container
+=== [#vector_container]#Vector Container#
 
 ==== Description
 
@@ -95,7 +95,7 @@ reference of the container.
 |`container_type &operator () ()` |Returns a reference of the container.
 |===
 
-=== [#vector_references]####Vector References
+=== [#vector_references]#Vector References#
 
 ==== Reference
 
@@ -175,7 +175,7 @@ the beginning of the reversed expression.
 the end of the reversed expression.
 |===
 
-=== [#vector_operations]####Vector Operations
+=== [#vector_operations]#Vector Operations#
 
 ==== Unary Operation Description
 
@@ -748,7 +748,7 @@ int main () {
 }
 ....
 
-=== [#vector_reductions]####Vector Reductions
+=== [#vector_reductions]#Vector Reductions#
 
 ==== Unary Reductions
 

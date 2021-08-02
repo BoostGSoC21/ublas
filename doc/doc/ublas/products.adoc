@@ -1,4 +1,4 @@
-== image:Boost.png[image]Special Products
+== Special Products
 
 [[toc]]
 

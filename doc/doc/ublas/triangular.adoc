@@ -1,8 +1,8 @@
-== image:Boost.png[image]Triangular Matrix
+== Triangular Matrix
 
 [[toc]]
 
-=== [#triangular_matrix]####Triangular Matrix
+=== [#triangular_matrix]#Triangular Matrix#
 
 ==== Description
 
@@ -221,7 +221,7 @@ organization are `row_major` and `column_major`.
 [#triangular_matrix_3]#[3]# Supported parameters for the adapted array
 are `unbounded_array<T>` , `bounded_array<T>` and `std::vector<T>` .
 
-=== [#triangular_adaptor]####Triangular Adaptor
+=== [#triangular_adaptor]#Triangular Adaptor#
 
 ==== Description
 

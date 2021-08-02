@@ -1,8 +1,8 @@
-== image:Boost.png[image]Range and Slice Storage
+== Range and Slice Storage
 
 [[toc]]
 
-=== [#range]####Range<SizeType,DistanceType>
+=== [#range]#Range<SizeType,DistanceType>#
 
 ==== Description
 
@@ -86,7 +86,7 @@ the end of the `range`.
 
 * `start () < = stop ()`
 
-=== [#slice]####Slice<SizeType,DistanceType>
+=== [#slice]#Slice<SizeType,DistanceType>#
 
 ==== Description
 

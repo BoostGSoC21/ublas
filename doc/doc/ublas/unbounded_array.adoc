@@ -1,8 +1,8 @@
-== image:Boost.png[image]Unbounded Array Storage
+== Unbounded Array Storage
 
 [[toc]]
 
-=== [#unbounded_array]####Unbounded Array
+=== [#unbounded_array]#Unbounded Array#
 
 ==== Description
 

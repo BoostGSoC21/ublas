@@ -1,8 +1,8 @@
-== image:Boost.png[image]Sparse Storage
+== Sparse Storage
 
 [[toc]]
 
-=== [#map_std]####Default Standard Map
+=== [#map_std]#Default Standard Map#
 
 ==== Description
 
@@ -54,7 +54,7 @@ Container.
 
 std::map
 
-=== [#map_array]####Map Array
+=== [#map_array]#Map Array#
 
 ==== Description
 

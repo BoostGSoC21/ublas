@@ -1,8 +1,8 @@
-== image:Boost.png[image]Matrix
+== Matrix
 
 [[toc]]
 
-=== [#matrix]####Matrix
+=== [#matrix]#Matrix#
 
 ==== Description
 
@@ -199,7 +199,7 @@ the end of the reversed `matrix`.
 [#matrix_2]#[2]# Common parameters for the storage array are
 `unbounded_array<T>` , `bounded_array<T>` and `std::vector<T>` .
 
-=== [#identity_matrix]####Identity Matrix
+=== [#identity_matrix]#Identity Matrix#
 
 ==== Description
 
@@ -313,7 +313,7 @@ to the end of the `identity_matrix`.
 `identity_matrix`.
 |===
 
-=== [#zero_matrix]####Zero Matrix
+=== [#zero_matrix]#Zero Matrix#
 
 ==== Description
 
@@ -427,7 +427,7 @@ to the end of the `zero_matrix`.
 `zero_matrix`.
 |===
 
-=== [#scalar_matrix]####Scalar Matrix
+=== [#scalar_matrix]#Scalar Matrix#
 
 ==== Description
 

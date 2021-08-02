@@ -1,8 +1,8 @@
-== image:Boost.png[image]Storage concept
+== Storage concept
 
 [[toc]]
 
-=== [#range]####Storage concept
+=== [#range]#Storage concept#
 
 ==== Description
 
