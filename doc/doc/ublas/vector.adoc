@@ -38,19 +38,19 @@ Defined in the header vector.hpp.
 
 |`T` |The type of object stored in the vector. |
 
-|`A` |The type of the link:storage_concept.adoc[Storage] array.
+|`A` |The type of the link:storage_concept.html[Storage] array.
 link:#vector_1[[1]] |`unbounded_array<T>`
 |===
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector],
+link:container_concept.html#vector[Vector],
 http://www.boost.org/sgi/stl/RandomAccessContainer.html[RandomAccessContainer]
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] and
+link:container_concept.html#vector[Vector] and
 http://www.boost.org/sgi/stl/RandomAccessContainer.html[RandomAccessContainer].
 
 ==== Public base classes
@@ -64,39 +64,39 @@ http://www.boost.org/sgi/stl/RandomAccessContainer.html[RandomAccessContainer].
 |Member |Where defined |Description
 
 |`value_type`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`reference`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`const_reference`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`size_type`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`difference_type`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`const_iterator`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`iterator`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`const_reverse_iterator`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
 |`reverse_iterator`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |
+|link:expression_concept.html#vector_expression[VectorExpression] |
 
-|`array_type` |link:container_concept.adoc#vector[Vector] |
+|`array_type` |link:container_concept.html#vector[Vector] |
 
 |`vector ()`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Allocates an uninitialized `vector` that holds zero elements.
 
-|`vector (size_type size)` |link:container_concept.adoc#vector[Vector]
+|`vector (size_type size)` |link:container_concept.html#vector[Vector]
 |Allocates an uninitialized `vector` that holds `size` elements.
 
 |`vector (const vector &v)` | |The copy constructor.
@@ -105,12 +105,12 @@ http://www.boost.org/sgi/stl/RandomAccessContainer.html[RandomAccessContainer].
 extended copy constructor.
 
 |`void resize (size_type size, bool preserve = true)`
-|link:container_concept.adoc#vector[Vector] |Reallocates a `vector` to
+|link:container_concept.html#vector[Vector] |Reallocates a `vector` to
 hold `size` elements. The existing elements of the `vector` are preseved
 when specified.
 
 |`size_type size () const`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns the size of the `vector`.
 
 |`size_type max_size () const`
@@ -122,118 +122,118 @@ when specified.
 |Equivilent to `size () == 0`.
 
 |`const array_type& data () const`
-|link:container_concept.adoc#vector[Vector] |
+|link:container_concept.html#vector[Vector] |
 
-|`array_type& data ()` |link:container_concept.adoc#vector[Vector] |
+|`array_type& data ()` |link:container_concept.html#vector[Vector] |
 
 |`const_reference operator () (size_type i) const`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `const` reference of the `i` -th element.
 
 |`reference operator () (size_type i)`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a reference of the `i`-th element.
 
 |`const_reference operator [] (size_type i) const`
-|link:container_concept.adoc#vector[Vector] |Returns a `const` reference
+|link:container_concept.html#vector[Vector] |Returns a `const` reference
 of the `i` -th element.
 
 |`reference operator [] (size_type i)`
-|link:container_concept.adoc#vector[Vector] |Returns a reference of the
+|link:container_concept.html#vector[Vector] |Returns a reference of the
 `i`-th element.
 
 |`vector &operator = (const vector &v)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |The
+|link:expression_concept.html#vector_expression[VectorExpression] |The
 assignment operator.
 
 |`vector &assign_temporary (vector &v)`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Assigns a temporary. May change the vector `v`.
 
 |`template<class AE> vector &operator = (const vector_expression<AE> &ae)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |The
+|link:expression_concept.html#vector_expression[VectorExpression] |The
 extended assignment operator.
 
 |`template<class AE> vector &assign (const vector_expression<AE> &ae)`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Assigns a vector expression to the vector. Left and right hand side of
 the assignment should be independent.
 
 |`template<class AE> vector &operator += (const vector_expression<AE> &ae)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |A
+|link:expression_concept.html#vector_expression[VectorExpression] |A
 computed assignment operator. Adds the vector expression to the vector.
 
 |`template<class AE> vector &plus_assign (const vector_expression<AE> &ae)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |Adds
+|link:expression_concept.html#vector_expression[VectorExpression] |Adds
 a vector expression to the vector. Left and right hand side of the
 assignment should be independent.
 
 |`template<class AE> vector &operator -= (const vector_expression<AE> &ae)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |A
+|link:expression_concept.html#vector_expression[VectorExpression] |A
 computed assignment operator. Subtracts the vector expression from the
 vector.
 
 |`template<class AE> vector &minus_assign (const vector_expression<AE> &ae)`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Subtracts a vector expression from the vector. Left and right hand side
 of the assignment should be independent.
 
 |`template<class AT> vector &operator *= (const AT &at)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |A
+|link:expression_concept.html#vector_expression[VectorExpression] |A
 computed assignment operator. Multiplies the vector with a scalar.
 
 |`template<class AT> vector &operator /= (const AT &at)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |A
+|link:expression_concept.html#vector_expression[VectorExpression] |A
 computed assignment operator. Divides the vector through a scalar.
 
 |`void swap (vector &v)`
-|link:expression_concept.adoc#vector_expression[VectorExpression] |Swaps
+|link:expression_concept.html#vector_expression[VectorExpression] |Swaps
 the contents of the vectors.
 
 |`void insert_element (size_type i, const_reference t)`
-|link:container_concept.adoc#vector[Vector] |Inserts the value `t` at
+|link:container_concept.html#vector[Vector] |Inserts the value `t` at
 the `i`-th element.
 
 |`void erase_element (size_type i)`
-|link:container_concept.adoc#vector[Vector] |Erases the value at the
+|link:container_concept.html#vector[Vector] |Erases the value at the
 `i`-th element.
 
-|`void clear ()` |link:container_concept.adoc#vector[Vector] |Clears the
+|`void clear ()` |link:container_concept.html#vector[Vector] |Clears the
 vector.
 
 |`const_iterator begin () const`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `const_iterator` pointing to the beginning of the `vector`.
 
 |`const_iterator end () const`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `const_iterator` pointing to the end of the `vector`.
 
 |`iterator begin ()`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `iterator` pointing to the beginning of the `vector`.
 
 |`iterator end ()`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `iterator` pointing to the end of the `vector`.
 
 |`const_reverse_iterator rbegin () const`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `const_reverse_iterator` pointing to the beginning of the
 reversed `vector`.
 
 |`const_reverse_iterator rend () const`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `const_reverse_iterator` pointing to the end of the reversed
 `vector`.
 
 |`reverse_iterator rbegin ()`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `reverse_iterator` pointing to the beginning of the reversed
 `vector`.
 
 |`reverse_iterator rend ()`
-|link:expression_concept.adoc#vector_expression[VectorExpression]
+|link:expression_concept.html#vector_expression[VectorExpression]
 |Returns a `reverse_iterator` pointing to the end of the reversed
 `vector`.
 |===
@@ -286,12 +286,12 @@ Defined in the header vector.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Public base classes
 
@@ -386,12 +386,12 @@ Defined in the header vector.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Public base classes
 
@@ -485,12 +485,12 @@ Defined in the header vector.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Public base classes
 

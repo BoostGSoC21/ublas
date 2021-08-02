@@ -20,8 +20,8 @@ Contents:::
 |`u, v, w` |are vectors
 |`i, j, k` |are integer values
 |`t, t1, t2` |are scalar values
-|`r, r1, r2` |are link:range.adoc[ranges], e.g. `range(0, 3)`
-|`s, s1, s2` |are link:range.adoc#slice[slices], e.g. `slice(0, 1, 3)`
+|`r, r1, r2` |are link:range.html[ranges], e.g. `range(0, 3)`
+|`s, s1, s2` |are link:range.html#slice[slices], e.g. `slice(0, 1, 3)`
 |===
 
 === [#blas]#Basic Linear Algebra#

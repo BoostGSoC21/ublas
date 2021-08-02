@@ -44,18 +44,18 @@ Defined in the header matrix.hpp.
 |`F` |Functor describing the storage organization. link:#matrix_1[[1]]
 |`row_major`
 
-|`A` |The type of the link:storage_concept.adoc[Storage] array.
+|`A` |The type of the link:storage_concept.html[Storage] array.
 link:#matrix_2[[2]] |`unbounded_array<T>`
 |===
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 
@@ -239,12 +239,12 @@ Defined in the header matrix.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 
@@ -353,12 +353,12 @@ Defined in the header matrix.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 
@@ -467,12 +467,12 @@ Defined in the header matrix.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 

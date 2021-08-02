@@ -2,7 +2,7 @@
 
 [[toc]]
 
-link:index.adoc[back to uBLAS home]
+link:index.html[back to uBLAS home]
 
 === NDEBUG
 

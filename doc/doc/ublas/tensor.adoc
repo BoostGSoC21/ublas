@@ -60,12 +60,12 @@ Defined in the header file `tensor/tensor.hpp`.
 
 ==== d. [#tensor_4]#Model of#
 
-link:container_concept.adoc#tensor[Tensor]
+link:container_concept.html#tensor[Tensor]
 
 ==== e. [#tensor_5]#Type requirements#
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#tensor[Tensor] .
+link:container_concept.html#tensor[Tensor] .
 
 ==== f. [#tensor_6]#Public base classes#
 
@@ -150,11 +150,11 @@ interacts.
 |===
 |Alias template |Description
 
-|`template<class derived_type>  using tensor_expression_type = detail::tensor_expression<self_type,derived_type>` |Type of link:tensor/tensor_expression.adoc#tensor_expression[tensor_expression] where `self_type` is the `tensor` type.
+|`template<class derived_type>  using tensor_expression_type = detail::tensor_expression<self_type,derived_type>` |Type of link:tensor/tensor_expression.html#tensor_expression[tensor_expression] where `self_type` is the `tensor` type.
 
-|`template<class derived_type>  using matrix_expression_type = matrix_expression<derived_type>` |Type of link:matrix_expression.adoc#matrix_expression[matrix_expression].
+|`template<class derived_type>  using matrix_expression_type = matrix_expression<derived_type>` |Type of link:matrix_expression.html#matrix_expression[matrix_expression].
 
-|`template<class derived_type>  using vector_expression_type = vector_expression<derived_type>` |Type of link:vector_expression.adoc#vector_expression[vector_expression].
+|`template<class derived_type>  using vector_expression_type = vector_expression<derived_type>` |Type of link:vector_expression.html#vector_expression[vector_expression].
 |===
 
 ==== j. [#tensor_10]#Member Functions#
@@ -170,15 +170,15 @@ elements.
 
 |`tensor (std::initializer_list<size_type> list)` |Constructs an
 uninitialized `tensor` where `list` specifies the dimension
-link:tensor/extents.adoc[extents].
+link:tensor/extents.html[extents].
 
 |`tensor (extents_type const& s)` |Constructs an uninitialized
 `tensor` where `s` specifies the dimension
-link:tensor/extents.adoc[extents].
+link:tensor/extents.html[extents].
 
 |`tensor (extents_type const& e, array_type const& a)` |Constructs an
 uninitialized `tensor` where `e` specifies the dimension
-link:tensor/extents.adoc[extents] and `a` the data elements of the
+link:tensor/extents.html[extents] and `a` the data elements of the
 tensor.
 
 |`tensor (tensor<value_type,other_layout&rt; const& other)` |Constructs
@@ -192,29 +192,29 @@ from `other`.
 `other`.
 
 |`tensor (matrix_type const& other)` |Constructs tensor by copying
-elements from `other` link:matrix.adoc[matrix]. The tensor will have the
+elements from `other` link:matrix.html[matrix]. The tensor will have the
 order 2.
 
 |`tensor (matrix_type && other)` |Constructs tensor by moving elements
-from `other` link:matrix.adoc[matrix]. The tensor will have the order 2.
+from `other` link:matrix.html[matrix]. The tensor will have the order 2.
 
 |`tensor (vector_type const& other)` |Constructs tensor by copying
-elements from `other` link:vector.adoc[vector]. The tensor will have the
+elements from `other` link:vector.html[vector]. The tensor will have the
 order 1.
 
 |`tensor (vector_type && other)` |Constructs tensor by moving elements
-from `other` link:vector.adoc[vector]. The tensor will have the order 1.
+from `other` link:vector.html[vector]. The tensor will have the order 1.
 
 |`tensor (tensor_expression_type<derived_type> const& expr)` |Constructs
-tensor by evaluating the link:tensor/tensor_expression.adoc[tensor
+tensor by evaluating the link:tensor/tensor_expression.html[tensor
 expression] `expr` and copying all elements of the result.
 
 |`tensor (matrix_expression_type<derived_type> const& expr)` |Constructs
-tensor by evaluating the link:matrix_expression.adoc[matrix expression]
+tensor by evaluating the link:matrix_expression.html[matrix expression]
 `expr` and copying all elements of the result.
 
 |`tensor (vector_expression_type<derived_type> const& expr)` |Constructs
-tensor by evaluating the link:vector_expression.adoc[vector expression]
+tensor by evaluating the link:vector_expression.html[vector expression]
 `expr` and copying all elements of the result.
 |===
 
@@ -225,7 +225,7 @@ tensor by evaluating the link:vector_expression.adoc[vector expression]
 |Member function |Description
 
 |`tensor& operator=(tensor_expression_type<derived_type> const& expr)`
-|Evaluates the link:tensor/tensor_expression.adoc[tensor expression]
+|Evaluates the link:tensor/tensor_expression.html[tensor expression]
 `expr` and copyies all elements of the result.
 
 |`tensor& operator=(tensor other)` |Copies or moves elements of `other`.
@@ -251,10 +251,10 @@ tensor.
 tensor.
 
 |`strides_type const& strides() const` |Returns a constant reference to
-the link:tensor/strides.adoc[strides] of the tensor.
+the link:tensor/strides.html[strides] of the tensor.
 
 |`extents_type const& extents() const` |Returns a constant reference to
-the link:tensor/extents.adoc[extents] of the tensor.
+the link:tensor/extents.html[extents] of the tensor.
 |===
 
 ===== iv. [#tensor_14]#Element access#
@@ -294,7 +294,7 @@ elements. If `sizeof...(is)==0`, `tensor::operator[i]` is called.
 |Member function |Description
 
 |`template<std::size_t I, class ... index_types>  tensor_index operator()(indices::Index<I> p, index_types ... ps)`
-|Returns a link:tensor/tensor_index.adoc[tensor index] instance with
+|Returns a link:tensor/tensor_index.html[tensor index] instance with
 index objects `(p,ps...)` for a tensor contraction where
 `sizeof...(ps)+1` must be equal to `tensor::order()`.
 |===

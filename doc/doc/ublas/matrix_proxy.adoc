@@ -42,7 +42,7 @@ Defined in the header matrix_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 If the specified row falls outside that of the row index range of the
 matrix, then the `matrix_row` is not a well formed Vector Expression.
@@ -52,7 +52,7 @@ _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ==== Public base classes
 
@@ -161,7 +161,7 @@ Defined in the header matrix_proxy.hpp.
 ===== Type requirements
 
 * `M` is a model of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ===== Complexity
 
@@ -227,7 +227,7 @@ Defined in the header matrix_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 If the specified column falls outside that of the column index range of
 the matrix, then the `matrix_column` is not a well formed Vector
@@ -237,7 +237,7 @@ is _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ==== Public base classes
 
@@ -347,7 +347,7 @@ Defined in the header matrix_proxy.hpp.
 ===== Type requirements
 
 * `M` is a model of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ===== Complexity
 
@@ -413,7 +413,7 @@ Defined in the header matrix_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 If the specified ranges fall outside that of the index range of the
 matrix, then the `matrix_vector_range` is not a well formed Vector
@@ -423,7 +423,7 @@ is _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ==== Public base classes
 
@@ -552,7 +552,7 @@ Defined in the header matrix_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 If the specified slices fall outside that of the index range of the
 matrix, then the `matrix_vector_slice` is not a well formed Vector
@@ -562,7 +562,7 @@ is _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ==== Public base classes
 
@@ -690,7 +690,7 @@ Defined in the header matrix_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 If the specified ranges fall outside that of the index range of the
 matrix, then the `matrix_range` is not a well formed Matrix Expression.
@@ -700,7 +700,7 @@ _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ==== Public base classes
 
@@ -867,7 +867,7 @@ Defined in the header matrix_proxy.hpp.
 ===== Type requirements
 
 * `M` is a model of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ===== Complexity
 
@@ -931,7 +931,7 @@ Defined in the header matrix_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 If the specified slices fall outside that of the index range of the
 matrix, then the `matrix_slice` is not a well formed Matrix Expression.
@@ -941,7 +941,7 @@ _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ==== Public base classes
 
@@ -1111,7 +1111,7 @@ Defined in the header matrix_proxy.hpp.
 ===== Type requirements
 
 * `M` is a model of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ===== Complexity
 

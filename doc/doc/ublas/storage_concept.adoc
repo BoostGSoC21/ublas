@@ -95,8 +95,8 @@ omitted" in section 5.3.4 paragraph 15 of the ISO C++ standard. |size()==n
 
 ===== Models
 
-* link:unbounded_array.adoc[unbounded_array]
-* link:bounded_array.adoc[bounded_array]
+* link:unbounded_array.html[unbounded_array]
+* link:bounded_array.html[bounded_array]
 
 ===== Notes
 

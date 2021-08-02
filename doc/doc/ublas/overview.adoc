@@ -27,7 +27,7 @@ from the use of such matrix and vector classes is acceptable.
 The development of this library was guided by a couple of similar
 efforts:
 
-* http://www.netlib.org/blas/index.adoc[BLAS] by Jack Dongarra et al.
+* http://www.netlib.org/blas/index.html[BLAS] by Jack Dongarra et al.
 * http://www.oonumerics.org/blitz/[Blitz++] by Todd Veldhuizen
 * http://acts.nersc.gov/pooma/[POOMA] by Scott Haney et al.
 * http://www.lsc.nd.edu/research/mtl/[MTL] by Jeremy Siek et al.
@@ -166,7 +166,7 @@ Our solution for this problem is to evaluate the right hand side of an
 assignment into a temporary and then to assign this temporary to the
 left hand side. To allow further optimizations, we provide a
 corresponding member function for every assignment operator and also a
-link:operations_overview.adoc#noalias[`noalias` syntax.] By using this
+link:operations_overview.html#noalias[`noalias` syntax.] By using this
 syntax a programmer can confirm, that the left and right hand sides of
 an assignment are independent, so that element wise evaluation and
 direct assignment to the target is safe.
@@ -215,7 +215,7 @@ Every C++ library supporting linear algebra will be measured against the
 long-standing Fortran package BLAS. We now describe how BLAS calls may
 be mapped onto our classes.
 
-The page link:operations_overview.adoc[Overview of Matrix and Vector
+The page link:operations_overview.html[Overview of Matrix and Vector
 Operations] gives a short summary of the most used operations on vectors
 and matrices.
 
@@ -403,7 +403,7 @@ symmetric or hermitian rank _2 k_ update.
 === Storage Layout
 
 uBLAS supports many different storage layouts. The full details can be
-found at the link:types_overview.adoc[Overview of Types]. Most types
+found at the link:types_overview.html[Overview of Types]. Most types
 like `vector<double>` and `matrix<double>` are by default compatible to
 C arrays, but can also be configured to contain FORTAN compatible data.
 

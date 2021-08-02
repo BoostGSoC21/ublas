@@ -48,7 +48,7 @@ Defined in the header storage.hpp.
 
 ==== Model of
 
-link:storage_concept.adoc[Storage]
+link:storage_concept.html[Storage]
 
 ==== Type requirements
 
@@ -93,19 +93,19 @@ of the concept.
 
 |`const_revere_iterator` |https://www.boost.org/sgi/stl/Container.html[Container] |Defined as `std::reverse_iterator<const_iterator>`
 
-|`bounded_array ()` |link:storage_concept.adoc[Storage] |Creates an `unbounded_array` that holds *zero* elements. 
+|`bounded_array ()` |link:storage_concept.html[Storage] |Creates an `unbounded_array` that holds *zero* elements. 
 
-|`bounded_array (size_type size)` |link:storage_concept.adoc[Storage] |Creates a uninitialized `bounded_array` that holds `size` elements. All the elements are default constructed.
+|`bounded_array (size_type size)` |link:storage_concept.html[Storage] |Creates a uninitialized `bounded_array` that holds `size` elements. All the elements are default constructed.
 
-|`bounded_array (size_type size, const T& init)` |link:storage_concept.adoc[Storage] |Creates an initialized `bounded_array` that holds `size` elements. All the elements are constructed from the `init` value.
+|`bounded_array (size_type size, const T& init)` |link:storage_concept.html[Storage] |Creates an initialized `bounded_array` that holds `size` elements. All the elements are constructed from the `init` value.
 
 |`bounded_array (const bounded_array &c)` |https://www.boost.org/sgi/stl/Container.html[Container] |The copy constructor.
 
 |`~bounded_array ()` |https://www.boost.org/sgi/stl/Container.html[Container] |Deallocates the `bounded_array` itself.
 
-|`void resize (size_type size)` |link:storage_concept.adoc[Storage] |Reallocates a `bounded_array` to hold `size` elements.
+|`void resize (size_type size)` |link:storage_concept.html[Storage] |Reallocates a `bounded_array` to hold `size` elements.
 
-|`void resize (size_type size, const T& t)` |link:storage_concept.adoc[Storage] |Reallocates a `bounded_array` to hold `size` elements.
+|`void resize (size_type size, const T& t)` |link:storage_concept.html[Storage] |Reallocates a `bounded_array` to hold `size` elements.
 
 |`size_type size () const` |https://www.boost.org/sgi/stl/Container.html[Container] |Returns the size of the `bounded_array`.
 

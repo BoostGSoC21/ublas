@@ -1,6 +1,6 @@
 == Boost Basic Linear Algebra - Release Notes
 
-link:index.adoc[back to uBLAS home]
+link:index.html[back to uBLAS home]
 
 [[toc]]
 
@@ -54,7 +54,7 @@ functions in `concepts.hpp` into anonymous namespace.
 
 * Move semantics of vector/matrix container assignments have been
 implemented. They can be enabled by setting BOOST_UBLAS_MOVE_SEMANTICS.
-More details are on the link:options.adoc[preprocessor options page].
+More details are on the link:options.html[preprocessor options page].
 * Introduce new free functions. See
 https://svn.boost.org/trac/boost/ticket/3449[[3449]], the new tests in
 libs/numeric/ublas/test and the inline documentation of the files in

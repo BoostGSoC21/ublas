@@ -47,12 +47,12 @@ Defined in the header vector_sparse.hpp.
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Public base classes
 
@@ -226,12 +226,12 @@ link:#compressed_vector_2[[2]] |`unbounded_array<T>`
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Public base classes
 
@@ -407,12 +407,12 @@ link:#coordinate_vector_2[[2]] |`unbounded_array<T>`
 
 ==== Model of
 
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#vector[Vector] .
+link:container_concept.html#vector[Vector] .
 
 ==== Public base classes
 

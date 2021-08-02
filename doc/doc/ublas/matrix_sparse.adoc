@@ -56,12 +56,12 @@ link:#mapped_matrix_1[[1]] |`row_major`
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 
@@ -271,12 +271,12 @@ link:#compressed_matrix_3[[3]] |`unbounded_array<T>`
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 
@@ -488,12 +488,12 @@ link:#coordinate_matrix_3[[3]] |`unbounded_array<T>`
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 

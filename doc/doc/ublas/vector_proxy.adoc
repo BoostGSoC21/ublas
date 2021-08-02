@@ -41,7 +41,7 @@ Defined in the header vector_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 If the specified range falls outside that of the index range of the
 vector, then the `vector_range` is not a well formed Vector Expression.
@@ -51,7 +51,7 @@ vector is _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ==== Public base classes
 
@@ -194,7 +194,7 @@ Defined in the header vector_proxy.hpp.
 ===== Type requirements
 
 * `V` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Complexity
 
@@ -256,7 +256,7 @@ Defined in the header vector_proxy.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 If the specified slice falls outside that of the index range of the
 vector, then the `vector_slice` is not a well formed Vector Expression.
@@ -266,7 +266,7 @@ vector is _undefined_.
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ==== Public base classes
 
@@ -411,7 +411,7 @@ Defined in the header vector_proxy.hpp.
 ===== Type requirements
 
 * `V` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Complexity
 

@@ -73,9 +73,9 @@ scalar expression.
 
 A Vector Expression is an expression evaluatable to a vector. Vector
 Expression provides an
-link:iterator_concept.adoc#indexed_bidirectional_iterator[Indexed
+link:iterator_concept.html#indexed_bidirectional_iterator[Indexed
 Bidirectional Iterator] or an
-link:iterator_concept.adoc#indexed_random_access_iterator[Indexed Random
+link:iterator_concept.html#indexed_random_access_iterator[Indexed Random
 Access Iterator] .
 
 ==== Refinement of
@@ -301,9 +301,9 @@ the same as the distance from `v.rbegin ()` to `v.rend ()`.
 
 A Matrix Expression is an expression evaluatable to a matrix. Matrix
 Expression provides an
-link:iterator_concept.adoc#indexed_bidirectional_cr_iterator[Indexed
+link:iterator_concept.html#indexed_bidirectional_cr_iterator[Indexed
 Bidirectional Column/Row Iterator] or an
-link:iterator_concept.adoc#indexed_random_access_cr_iterator[Indexed
+link:iterator_concept.html#indexed_random_access_cr_iterator[Indexed
 Random Access Column/Row Iterator] .
 
 ==== Refinement of

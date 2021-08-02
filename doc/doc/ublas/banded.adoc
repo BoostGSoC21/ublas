@@ -50,12 +50,12 @@ link:#banded_matrix_1[[1]] |`row_major`
 
 ==== Model of
 
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:container_concept.adoc#matrix[Matrix] .
+link:container_concept.html#matrix[Matrix] .
 
 ==== Public base classes
 
@@ -250,12 +250,12 @@ Defined in the header banded.hpp.
 
 ==== Model of
 
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ==== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ==== Public base classes
 

@@ -49,7 +49,7 @@ expression.
 ==== Notes
 
 The `range`, `slice` and `project` functions have been removed. Use the
-free functions defined in link:vector_proxy.adoc[vector proxy] instead.
+free functions defined in link:vector_proxy.html[vector proxy] instead.
 
 === [#vector_container]#Vector Container#
 
@@ -118,12 +118,12 @@ Defined in the header vector_expression.hpp.
 
 ===== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Public base classes
 
@@ -199,12 +199,12 @@ Defined in the header vector_expression.hpp.
 
 ===== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Public base classes
 
@@ -297,7 +297,7 @@ Defined in the header vector_expression.hpp.
 ===== Type requirements
 
 * `E` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Preconditions
 
@@ -352,12 +352,12 @@ Defined in the header vector_expression.hpp.
 
 ===== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Public base classes
 
@@ -431,9 +431,9 @@ Defined in the header vector_expression.hpp.
 ===== Type requirements
 
 * `E1` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 * `E2` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Preconditions
 
@@ -484,12 +484,12 @@ Defined in the header matrix_expression.hpp.
 
 ===== Model of
 
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ===== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#matrix_expression[Matrix Expression] .
+link:expression_concept.html#matrix_expression[Matrix Expression] .
 
 ===== Public base classes
 
@@ -571,9 +571,9 @@ Defined in the header matrix_expression.hpp.
 ===== Type requirements
 
 * `E1` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 * `E2` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Preconditions
 
@@ -624,12 +624,12 @@ Defined in the header vector_expression.hpp.
 
 ===== Model of
 
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Type requirements
 
 None, except for those imposed by the requirements of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Public base classes
 
@@ -718,9 +718,9 @@ Defined in the header vector_expression.hpp.
 ===== Type requirements
 
 * `T1/T2` is a model of
-link:expression_concept.adoc#scalar_expression[Scalar Expression] .
+link:expression_concept.html#scalar_expression[Scalar Expression] .
 * `E2/E1` is a model of
-link:expression_concept.adoc#vector_expression[Vector Expression] .
+link:expression_concept.html#vector_expression[Vector Expression] .
 
 ===== Preconditions
 
