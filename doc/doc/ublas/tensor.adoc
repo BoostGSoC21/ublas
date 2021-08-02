@@ -2,7 +2,7 @@
 
 [[toc]]
 
-. ##Tensor +
+. Tensor +
 .. link:#tensor_1[Description] +
 .. link:#tensor_2[Example] +
 .. link:#tensor_3[Definition] +
