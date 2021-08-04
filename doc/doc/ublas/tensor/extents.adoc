@@ -7,7 +7,7 @@
 ==== Description
 
 The template class `basic_extents` specifies dimension extents of a
-link:../tensor.adoc#tensor[tensor] instance.
+link:../tensor.html#tensor[tensor] instance.
 
 ==== Example
 
