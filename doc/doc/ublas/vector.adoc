@@ -7,7 +7,7 @@
 ==== Description
 
 The templated class `vector<T, A>` is the base container adaptor for
-dense vectors. For a _n_-dimensional vector and _0 <= i < n_ every
+dense vectors. For a _n_-dimensional vector and _0 < = i < n_ every
 element __v__~_i_~ is mapped to the __i-__th element of the container.
 
 ==== Example
