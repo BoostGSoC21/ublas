@@ -1,3 +1,10 @@
+# Boost.Ublas: The Boost Ublas Library
+:toc: left
+:toclevels: 2
+:idprefix:
+:listing-caption: Code Example
+:docinfo: private-footer
+
 == Matrix Expressions
 
 [[toc]]
