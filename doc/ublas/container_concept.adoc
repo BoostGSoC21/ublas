@@ -1,10 +1,3 @@
-# Boost.Ublas: The Boost Ublas Library
-:toc: left
-:toclevels: 2
-:idprefix:
-:listing-caption: Code Example
-:docinfo: private-footer
-
 == Container Concepts
 
 [[toc]]
@@ -18,7 +11,7 @@ A Vector describes common aspects of dense, packed and sparse vectors.
 ==== Refinement of
 
 https://www.boost.org/sgi/stl/DefaultConstructible.html[DefaultConstructible],
-link:expression_concept.adoc#vector_expression[Vector Expression]
+link:expression_concept.html#vector_expression[Vector Expression]
 link:#vector_expression_note[[1]].
 
 ==== Associated types

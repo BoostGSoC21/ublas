@@ -9,69 +9,9 @@
 
 import asciidoctor ;
 
-html ublas : ublas.adoc ;
+html ublas.html : ublas.adoc ;
 
-html tensor/strides : ublas/tensor/strides.adoc ;
-
-html tensor/extents : ublas/tensor/extents.adoc ;
-
-html banded : ublas/banded.adoc ;
-
-html blas : ublas/blas.adoc ;
-
-html bounded_array : ublas/bounded_array.adoc ;
-
-html container_concept : ublas/container_concept.adoc ;
-
-html expression_concept : ublas/expression_concept.adoc ;
-
-html hermitian : ublas/hermitian.adoc ;
-
-html iterator_concept : ublas/iterator_concept.adoc ;
-
-html matrix_expression : ublas/matrix_expression.adoc ;
-
-html matrix_proxy : ublas/matrix_proxy.adoc ;
-
-html matrix_sparse : ublas/matrix_sparse.adoc ;
-
-html matrix : ublas/matrix.adoc ;
-
-html operation_overview : ublas/operations_overview.adoc ;
-
-html options : ublas/options.adoc ;
-
-html overview : ublas/overview.adoc ;
-
-html products : ublas/products.adoc ;
-
-html range : ublas/range.adoc ;
-
-html release_notes : ublas/release_notes.adoc ;
-
-html storage_concept : ublas/storage_concept.adoc ;
-
-html storage_sparse : ublas/storage_sparse.adoc ;
-
-html symmetric : ublas/symmetric.adoc ;
-
-html tensor : ublas/tensor.adoc ;
-
-html triangular : ublas/triangular.adoc ;
-
-html types_overview : ublas/types_overview.adoc ;
-
-html unbounded_array : ublas/unbounded_array.adoc ;
-
-html vector_expression : ublas/vector_expression.adoc ;
-
-html vector_proxy : ublas/vector_proxy.adoc ;
-
-html vector_sparse : ublas/vector_sparse.adoc ;
-
-html vector : ublas/vector.adoc ;
-
-#install html_ : ublas.html : <location>html ;
+install html_ : ublas.html : <location>html ;
 
 pdf ublas.pdf : ublas.adoc ;
 
@@ -79,7 +19,7 @@ explicit ublas.pdf ;
 
 install pdf_ : ublas.pdf : <location>pdf ;
 
-explicit pdf_ ;
+explicit pdf_ ; 
 
 alias boostdoc ;
 
