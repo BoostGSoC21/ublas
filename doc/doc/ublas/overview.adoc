@@ -2,7 +2,7 @@
 
 [[toc]]
 
-Rationale
+=== Rationale
 
 It would be nice if every kind of numeric software could be written in
 C++ without loss of efficiency, but unless something can be found that
