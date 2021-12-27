@@ -33,14 +33,14 @@
 
 
 
-namespace boost::numeric::ublas::detail
+namespace boost { namespace numeric { namespace ublas { namespace detail
 {
 template<class V, class L, std::size_t ... ns>
 using engine_tensor_static = tensor_engine<
   extents<ns...>, L, std::array<V,product_v<extents<ns...>>> >;
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 template<class V, class L, std::size_t ... ns>
 class tensor_core<detail::engine_tensor_static<V,L,ns...>>
   : public detail::tensor_expression<
@@ -433,24 +433,24 @@ private:
 //}
 
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas{
 
 template<class V, class E, class L = layout::first_order>
 using tensor_static = tensor_core<tensor_engine<E, L, std::array<V, product_v<E>>>>;
 
-}
+} } }
 
-namespace boost::numeric::ublas::experimental
+namespace boost { namespace numeric { namespace ublas { namespace experimental
 {
 template<class V, std::size_t n1, std::size_t n2, class L = layout::first_order>
 using matrix_static = tensor_static<V, extents<n1,n2>, L>;
 
 template<class V, std::size_t n1, class L = layout::first_order>
 using vector_static = tensor_static<V, extents<n1>, L>;
-} // namespace boost::numeric::ublas::experimental
+} } } } // namespace boost::numeric::ublas::experimental
 
 #endif
 

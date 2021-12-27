@@ -13,7 +13,7 @@
 #ifndef BOOST_UBLAS_TENSOR_ENGINE_HPP
 #define BOOST_UBLAS_TENSOR_ENGINE_HPP
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas{
 
 template<typename E, typename L, typename C>
 struct tensor_engine
@@ -23,7 +23,7 @@ struct tensor_engine
   using container_type = C;
 };
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 #endif
