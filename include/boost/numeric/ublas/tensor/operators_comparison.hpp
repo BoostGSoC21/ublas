@@ -22,12 +22,12 @@
 #include "type_traits.hpp"
 #include "expression_evaluation.hpp"
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 template<class T>
 class tensor_core;
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas::detail
+namespace boost { namespace numeric { namespace ublas { namespace detail
 {
 
 template<class T1, class T2, class BinaryPred>
@@ -98,7 +98,7 @@ constexpr bool compare(tensor_expression<T,D> const& expr, UnaryPred pred)
         return compare(T( expr ), pred);
 }
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 
 template<class T1, class T2, class L, class R>

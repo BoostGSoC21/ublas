@@ -20,7 +20,7 @@
 #include "../tags.hpp"
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 template<class T, class L, class ST>
@@ -29,7 +29,7 @@ struct tensor_engine;
 template<typename tensor_engine>
 class tensor_core;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 namespace boost::numeric::ublas
 {
@@ -280,4 +280,4 @@ inline decltype(auto) outer_prod(tensor_core<TEA> const &a, tensor_core<TEB> con
 
 } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_PROD_DYNAMIC_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_OUTER_HPP

@@ -20,13 +20,13 @@
 #include "../multiplication.hpp"
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 template<typename tensor_engine>
 class tensor_core;
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /** @brief Transposes a tensor according to a permutation tuple
@@ -73,6 +73,6 @@ inline decltype(auto) trans(tensor_core< TensorEngine > const &a, PermuType cons
   return c;
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_PROD_DYNAMIC_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_TRANS_HPP

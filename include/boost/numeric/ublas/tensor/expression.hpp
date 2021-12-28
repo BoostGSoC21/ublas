@@ -17,7 +17,7 @@
 
 #include "tags.hpp"
 
-namespace boost::numeric::ublas::detail
+namespace boost { namespace numeric { namespace ublas { namespace detail
 {
 
 /** @\brief base class for tensor expressions
@@ -177,6 +177,6 @@ constexpr auto make_unary_tensor_expression( vector_expression<E> const& e, OP o
 }
 
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 #endif // BOOST_UBLAS_TENSOR_EXPRESSIONS_HPP

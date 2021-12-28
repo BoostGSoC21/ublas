@@ -11,7 +11,7 @@
 #ifndef BOOST_UBLAS_TENSOR_TAGS_HPP
 #define BOOST_UBLAS_TENSOR_TAGS_HPP
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas{
     
     struct tensor_tag{};
     
@@ -23,7 +23,7 @@ namespace boost::numeric::ublas{
     
     struct storage_non_seq_container_tag{};
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 #endif // BOOST_UBLAS_TENSOR_TAGS_HPP

@@ -18,7 +18,7 @@
 #include <type_traits>
 
 
-namespace boost::numeric::ublas::detail {
+namespace boost { namespace numeric { namespace ublas { namespace detail {
 
 template<class ... index_types>
 struct has_index_impl;
@@ -47,11 +47,11 @@ struct has_index_impl <itype_left, std::tuple<itype_right, index_types...> >
     using next_type = has_index_impl<itype_left, std::tuple<index_types...>>;
     static constexpr bool value = has_index_impl<itype_left,itype_right>::value || next_type::value;
 };
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /** @brief has_index is true if index occurs once or more in a multi-index
@@ -69,12 +69,12 @@ struct has_index
     static constexpr bool value = detail::has_index_impl<std::decay_t<index_type>,std::decay_t<tuple_type>>::value;
 };
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 
-namespace boost::numeric::ublas::detail {
+namespace boost { namespace numeric { namespace ublas { namespace detail {
 
 
 template<class ... index_types>
@@ -103,7 +103,7 @@ struct valid_multi_index_impl<std::tuple<itype,index_types...>>
     static constexpr bool has_index_value = has_index_type::value && !is_index_zero;
     static constexpr bool value = !has_index_value && valid_multi_index_impl<ttype>::value;
 };
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 namespace boost::numeric::ublas
 {

@@ -17,7 +17,7 @@
 #include "../extents.hpp"
 #include "../tensor.hpp"
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas{
 
 /** Enables prod(ttt) if E1 or E1 is dynamic extents with static rank
  *
@@ -82,6 +82,6 @@ template< class E, class D,
   return r;
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_PROD_COMMON_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_RESHAPE_HPP

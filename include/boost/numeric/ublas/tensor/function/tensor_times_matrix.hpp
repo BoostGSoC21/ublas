@@ -48,7 +48,7 @@
 
 //} // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 namespace detail {
@@ -251,6 +251,6 @@ inline decltype(auto) prod(tensor_core<TE> const &a, matrix<T,L,A> const &b)
 
 //auto c = return_tensor_type(value_type{});
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_NORM_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_TTM_HPP

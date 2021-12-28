@@ -18,13 +18,13 @@
 
 #include "../traits/basic_type_traits.hpp"
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 template<typename tensor_engine>
 class tensor_core;
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /**
@@ -55,6 +55,6 @@ inline auto norm(tensor_core< TE > const &a)
                               [](auto const &l, auto const &r) { return l + r * r; }));
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 #endif   // BOOST_NUMERIC_UBLAS_TENSOR_NORM_HPP

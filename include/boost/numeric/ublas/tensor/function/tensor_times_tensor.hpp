@@ -21,7 +21,7 @@
 #include "../type_traits.hpp"
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 template<class extents_type, class layout_type, class container_type>
@@ -33,9 +33,9 @@ class tensor_core;
 template<class value_type, class layout, class allocator>
 class matrix;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 namespace detail
@@ -332,6 +332,6 @@ inline decltype(auto) prod(tensor_core<TEA> const &a,
 
 
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_NORM_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_TTT_HPP

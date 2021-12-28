@@ -15,12 +15,11 @@
 
 #include <algorithm>
 #include <numeric>
-//#include <concepts>
 
 #include "../layout.hpp"
 #include "../concepts.hpp"
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 template<integral T, T...>
 class extents_core;
@@ -40,10 +39,10 @@ template <class D> [[nodiscard]] constexpr inline auto rend  (extents_base<D> co
 template <class D> [[nodiscard]] constexpr inline auto empty (extents_base<D> const& e) noexcept -> bool                                { return e().base().empty(); }
 template <class D> [[nodiscard]] constexpr inline auto size  (extents_base<D> const& e) noexcept -> typename D::size_type               { return e().base().size(); }
 
-} //namespace boost::numeric::ublas
+} } } //namespace boost::numeric::ublas
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /** @brief Returns true if extents equals ([m,n,...,l]) with m>0,n>0,...,l>0  */
@@ -183,7 +182,7 @@ template<integral T, T n, class L>
 
 
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 template<boost::numeric::ublas::integral T, T n, T m>
@@ -242,6 +241,6 @@ template<size_t i, boost::numeric::ublas::integral T, T e1, T ... es>
 } // namespace std
 
 
-#endif // _BOOST_NUMERIC_UBLAS_TENSOR_EXTENTS_FUNCTIONS_HPP_
+#endif // BOOST_NUMERIC_UBLAS_TENSOR_EXTENTS_FUNCTIONS_HPP
 
 
