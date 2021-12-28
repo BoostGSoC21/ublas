@@ -15,7 +15,7 @@
 #include <array>
 #include <complex>
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 
 template<typename T>
@@ -27,6 +27,6 @@ struct is_complex< std::complex<T> > : std::true_type{};
 template<typename T>
 inline static constexpr bool is_complex_v = is_complex<T>::value;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 #endif

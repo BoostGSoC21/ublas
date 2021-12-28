@@ -17,7 +17,7 @@
 #include <functional>
 #include <stdexcept>
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 
 
@@ -344,7 +344,7 @@ constexpr void trans(SizeType const p,
 }
 
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 #endif

@@ -17,11 +17,11 @@
 #define BOOST_UBLAS_TENSOR_CORE_HPP
 
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 template<class tensor_engine>
 class tensor_core;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 #endif // BOOST_UBLAS_TENSOR_CORE_HPP

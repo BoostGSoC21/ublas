@@ -23,14 +23,14 @@
 #include "type_traits.hpp"
 
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 template<class tensor_engine>
 class tensor_core;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas::detail {
+namespace boost { namespace numeric { namespace ublas { namespace detail {
 
 template<class T, class D>
 struct tensor_expression;
@@ -41,9 +41,9 @@ struct binary_tensor_expression;
 template<class T, class E, class OP>
 struct unary_tensor_expression;
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
-namespace boost::numeric::ublas::detail {
+namespace boost { namespace numeric { namespace ublas { namespace detail {
 
 template<class T, class E>
 struct has_tensor_types
@@ -65,10 +65,10 @@ template<class T, class E, class OP>
 struct has_tensor_types<T, unary_tensor_expression<T,E,OP>>
 { static constexpr bool value = std::is_same<T,E>::value || has_tensor_types<T,E>::value; };
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 
-namespace boost::numeric::ublas::detail
+namespace boost { namespace numeric { namespace ublas { namespace detail
 {
 
 /** @brief Retrieves extents of the tensor_core
@@ -158,7 +158,7 @@ constexpr auto& retrieve_extents(unary_tensor_expression<T,E,OP> const& expr)
 	    return retrieve_extents(expr.e);
 }
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 
 ///////////////

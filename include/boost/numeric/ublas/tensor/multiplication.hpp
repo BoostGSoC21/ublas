@@ -15,8 +15,8 @@
 
 #include <cassert>
 
-namespace boost::numeric::ublas {
-namespace detail::recursive {
+namespace boost { namespace numeric { namespace ublas {
+namespace detail { namespace recursive {
 
 
 /** @brief Computes the tensor-times-tensor product for q contraction modes
@@ -578,8 +578,8 @@ void outer(SizeType const k,
 }
 
 
-} // namespace detail::recursive
-} // namespace boost::numeric::ublas
+} } // namespace detail::recursive
+} } } // namespace boost::numeric::ublas
 
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -595,7 +595,7 @@ void outer(SizeType const k,
 
 #include <stdexcept>
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 /** @brief Computes the tensor-times-vector product
  *
@@ -979,6 +979,6 @@ void outer(PointerOut c,       SizeType const pc, SizeType const*const nc, SizeT
 
 
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 #endif

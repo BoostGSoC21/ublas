@@ -22,7 +22,7 @@
 #include <functional>
 #include <algorithm>
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 template<class T>
@@ -35,7 +35,7 @@ class matrix_expression;
 template<class E>
 class vector_expression;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 template <class T, class L, class R>

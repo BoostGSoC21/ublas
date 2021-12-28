@@ -22,7 +22,7 @@
 #include "multi_index_utility.hpp"
 
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 /** @brief Proxy class for the einstein summation notation
  *
@@ -93,6 +93,6 @@ auto array_to_vector(multi_index<M> const& lhs, multi_index<N> const& rhs)
     return pair_of_vector;
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif // MULTI_INDEX_HPP
+#endif // BOOST_UBLAS_TENSOR_MULTI_INDEX_HPP

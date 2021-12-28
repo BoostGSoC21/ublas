@@ -31,7 +31,7 @@
 #include "tensor_engine.hpp"
 
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 template<class V, class L>
 using engine_tensor_dynamic = tensor_engine<extents<>, L, std::vector<V>>;
@@ -454,12 +454,12 @@ private:
   container_type _container;
 };
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas{
 template<class V = float, class L = layout::first_order>
 using tensor_dynamic = tensor_core<tensor_engine<extents<>, L, std::vector<V>>>;
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 #endif

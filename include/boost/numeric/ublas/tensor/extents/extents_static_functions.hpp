@@ -23,7 +23,7 @@
 
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 
@@ -599,7 +599,7 @@ using to_strides_impl_t = typename detail::to_strides_impl_t<E,L,std::make_index
 template<class E, class L>
 constexpr inline auto to_strides_v = to_array_v<to_strides_impl_t<std::decay_t<E>,L>>;
 
-} //namespace boost::numeric::ublas
+} } } //namespace boost::numeric::ublas
 
 
 template <

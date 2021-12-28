@@ -26,7 +26,7 @@
 #include "../layout.hpp"
 #include "../concepts.hpp"
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 
 
@@ -140,7 +140,7 @@ private:
   base_type _base;
 };
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 namespace boost::numeric::ublas{

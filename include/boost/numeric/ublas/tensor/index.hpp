@@ -17,7 +17,7 @@
 #include <cstddef>
 #include <vector>
 
-namespace boost::numeric::ublas::index {
+namespace boost { namespace numeric { namespace ublas { namespace index {
 
 /** @brief Proxy template class for the einstein summation notation
  *
@@ -77,7 +77,7 @@ static constexpr index_type<24> _x;
 static constexpr index_type<25> _y;
 static constexpr index_type<26> _z;
 
-} // namespace boost::numeric::ublas::index
+} } } } // namespace boost::numeric::ublas::index
 
 
-#endif // _BOOST_UBLAS_TENSOR_INDEX_HPP_
+#endif // BOOST_UBLAS_TENSOR_INDEX_HPP

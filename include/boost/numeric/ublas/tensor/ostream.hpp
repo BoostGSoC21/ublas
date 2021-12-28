@@ -21,7 +21,7 @@
 
 
 
-namespace boost::numeric::ublas::detail
+namespace boost { namespace numeric { namespace ublas { namespace detail
 {
 
 template <class value_type>
@@ -75,16 +75,16 @@ void print(std::ostream& out, size_type r, const value_type* p, const size_type*
 ////////////////////////////
 
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 template<class T>
 class tensor_core;
 
-} //namespace boost::numeric::ublas
+} } } //namespace boost::numeric::ublas
 
 
 template <typename T>

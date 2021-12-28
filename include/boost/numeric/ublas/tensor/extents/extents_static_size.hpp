@@ -28,7 +28,7 @@
 #include "../concepts.hpp"
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /** @brief Class template for storing static-number of extents
@@ -131,12 +131,12 @@ private:
   base_type _base{};
 };
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
 
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas
 template <integral T, T n> struct is_extents     < extents_core<T,n> > : std::true_type {};
 template <integral T, T n> struct is_dynamic     < extents_core<T,n> > : std::true_type {};
 template <integral T, T n> struct is_static_rank < extents_core<T,n> > : std::true_type {};

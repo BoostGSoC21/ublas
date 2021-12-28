@@ -19,7 +19,7 @@
 #include "concepts.hpp"
 
 
-namespace boost::numeric::ublas::detail
+namespace boost { namespace numeric { namespace ublas { namespace detail
 {
 
 /** @brief Returns relative memory index with respect to a multi-index
@@ -59,6 +59,6 @@ template<integral I, integral  ... Is>
 }
 
 
-} // namespace boost::numeric::ublas::detail
+} } } } // namespace boost::numeric::ublas::detail
 
 #endif // BOOST_NUMERIC_UBLAS_TENSOR_INDEX_FUNCTIONS_HPP

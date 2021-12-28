@@ -19,7 +19,7 @@
 #include "../type_traits.hpp"
 #include "../tags.hpp"
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 
@@ -32,9 +32,9 @@ class tensor_core;
 //template<class type, class allocator>
 //class vector;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 namespace detail {
@@ -235,6 +235,6 @@ inline auto prod( tensor_core< TE > const &a, vector<T, A> const &b)
   return c;
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_NORM_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_TTV_HPP

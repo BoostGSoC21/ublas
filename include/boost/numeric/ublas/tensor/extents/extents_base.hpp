@@ -11,12 +11,11 @@
 #define BOOST_NUMERIC_UBLAS_TENSOR_EXTENTS_BASE_HPP
 
 #include <algorithm>
-//#include <concepts>
 #include <type_traits>
 
 #include "../concepts.hpp"
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 
 template<class D>
@@ -49,6 +48,6 @@ template <class E> inline static constexpr bool const is_static_v       = is_sta
 template <class E> inline static constexpr bool const is_dynamic_rank_v = is_dynamic_rank<E>::value;
 template <class E> inline static constexpr bool const is_static_rank_v  = is_static_rank<E>::value;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 #endif // _BOOST_NUMERIC_UBLAS_TENSOR_EXTENTS_BASE_HPP_

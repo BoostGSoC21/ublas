@@ -21,16 +21,16 @@
 #include "../expression.hpp"
 #include "../expression_evaluation.hpp"
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 template<typename tensor_engine>
 class tensor_core;
 
 template<typename extents_type, typename layout_type, typename storage_type>
 struct tensor_engine;
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /** @brief Extract the real component of tensor elements within a tensor expression
@@ -75,6 +75,6 @@ auto real(detail::tensor_expression< tensor_core< TE > ,D > const& expr)
   return c;
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_PROD_DYNAMIC_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_REAL_HPP

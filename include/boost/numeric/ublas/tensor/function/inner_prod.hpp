@@ -18,13 +18,13 @@
 #include "../multiplication.hpp"
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 template<typename tensor_engine>
 class tensor_core;
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 /** @brief Computes the inner product of two tensors     *
@@ -63,6 +63,6 @@ inline decltype(auto) inner_prod(tensor_core< TE1 > const &a, tensor_core< TE2 >
                b.data(), b.strides().data(), value_type{0});
 }
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_PROD_DYNAMIC_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_INNER_HPP

@@ -32,7 +32,7 @@
 
 
 
-namespace boost::numeric::ublas {
+namespace boost { namespace numeric { namespace ublas {
 
 template<class V, class L, std::size_t N>
 using engine_tensor_static_rank = tensor_engine<extents<N>, L, std::vector<V>>;
@@ -454,10 +454,10 @@ private:
 template<class V, std::size_t N, class L = layout::first_order>
 using tensor_static_rank = tensor_core<engine_tensor_static_rank<V, L, N>>;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
 
-namespace boost::numeric::ublas::experimental
+namespace boost { namespace numeric { namespace ublas { namespace experimental
 {
 
 template<class V, class L = layout::first_order>
@@ -466,7 +466,7 @@ using matrix = tensor_core<engine_tensor_static_rank<V, L, 2>>;
 template<class V, class L = layout::first_order>
 using vector = tensor_core<engine_tensor_static_rank<V, L, 1>>;
 
-} // namespace boost::numeric::ublas::experimental
+} } } } // namespace boost::numeric::ublas::experimental
 
 
 #endif // BOOST_UBLAS_TENSOR_STATIC_RANK_HPP

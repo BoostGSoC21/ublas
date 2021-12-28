@@ -15,7 +15,7 @@
 
 #include <type_traits>
 
-namespace boost::numeric::ublas{
+namespace boost { namespace numeric { namespace ublas{
 
 template<typename T>
 concept integral = std::is_integral_v<T>;
@@ -29,6 +29,6 @@ concept unsigned_integral = integral<T> && !signed_integral<T>;
 template<typename T>
 concept floating_point = std::is_floating_point_v<T>;
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif // BOOST_UBLAS_TENSOR_CONCEPTS_BASIC_HPP
+#endif // BOOST_UBLAS_TENSOR_CONCEPTS_HPP

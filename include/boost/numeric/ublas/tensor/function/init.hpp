@@ -17,7 +17,7 @@
 //#include <concepts>
 
 
-namespace boost::numeric::ublas
+namespace boost { namespace numeric { namespace ublas
 {
 
 template<class V, class L, auto n>
@@ -115,6 +115,6 @@ template<class V = float, class L = layout::first_order>
 using zeros_static = init_static<V,L,0>;
 
 
-} // namespace boost::numeric::ublas
+} } } // namespace boost::numeric::ublas
 
-#endif   // BOOST_NUMERIC_UBLAS_TENSOR_FUNCTIONS_ONES_HPP
+#endif   // BOOST_NUMERIC_UBLAS_TENSOR_FUNCTIONS_INIT_HPP
